@@ -1,0 +1,39 @@
+#title{
+    color: lightgreen;
+    text-align: center;
+}
+
+.headings {
+    color: blue;
+    border-radius: 25px;
+    background-color: gray;
+    
+}
+
+.first, .second, .third {
+    border-radius: 25px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+
+.paragraphs{
+    color: red;
+}
+
+div{
+    border: black;
+    border-width: 25px;
+    border-style: solid;
+}
+
+.movies-table{
+    border: black;
+    border-style: solid;
+    background-color: lightskyblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
