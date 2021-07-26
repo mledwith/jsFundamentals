@@ -211,3 +211,43 @@ function whatDoesItDo(color){
     return color;
 };
 console.log(whatDoesItDo());
+
+
+
+
+
+
+//Write a for loop that counts from 1 to 100
+// - for numbers that are evenly divisible by 3, print:
+// "FIZZ"
+// - for numbers that are evenly divisible by 5, print:
+// "BUZZ"
+//- for numbers that are evenly divisible by both 3 and 5, print "FIZZ BUZZ"
+//reminder: a number is evenly divisible by another number when the remainder is 0.
+
+
+for(let i = 0; i <= 100; i ++){
+    console.log(i);
+    if(i % 3 == 0){
+    console.log('FIZZ');
+    }
+    if(i % 5 == 0) {
+    console.log('BUZZ');
+    }
+
+}
+
+//   OR     //
+
+for(let l = 1; l <= 100; l++) {
+    // if(l % 3 == 0 && l % 5 == 0){
+        if(l % 15 ==0){
+        console.log('FIZZ BUZZ');
+    } else if(l % 3 == 0){
+        console.log('FIZZ');
+    } else if(l % 5 == 0){
+        console.log('BUZZ');
+    } else {
+        console.log(l);
+    }
+}
